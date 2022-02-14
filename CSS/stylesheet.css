@@ -1,0 +1,98 @@
+body{
+  font-family: sans-serif;
+  font-size:110%;
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+#profilePhoto{
+  width: 10%;
+  height: 10%;
+  border-radius:50%;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+}
+
+#heading{
+  font-family:'Trebuchet MS', sans-serif;
+  font-size:100%;
+  color: ghostwhite;
+  background-color:rgb(71, 71, 71);
+  text-align: center;
+}
+
+footer {
+  color: ghostwhite;
+  background-color:rgb(71, 71, 71);
+  text-align: center; 
+}
+#linkedin{
+  width: 4%;
+  height: 5%;
+  border-radius: 50%;
+  border: 2px solid none;
+}
+#gmail{
+  width: 4%;
+  height: 2%;
+  border-radius: 50%;
+  border: 2px solid none;
+}
+#facebook{
+width: 4%;
+  height: 5%;
+  border-radius: 50%;
+  border: 2px solid none;
+}
+#sidebar{
+  width:20%;
+  color:ghostwhite;
+  background-color: rgb(64, 73, 48);
+  font-size: 25px;
+  margin: 0px;
+  padding: 1rem;
+
+}
+/* unvisited link */
+a:link {
+  color: ghostwhite;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(105, 103, 103);
+}
+
+/* mouse over link */
+a:hover {
+  color:darkgoldenrod;
+}
+
+/* selected link */
+a:active {
+  color: darkgoldenrod;
+}
+
+.nav-menu{
+  list-style-type: none;
+  padding: 0%;
+}
+.icons{
+  width: 3rem;
+  margin: 2rem;
+  height: auto;
+
+}
